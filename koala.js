@@ -135,7 +135,7 @@ var koala = {
   // Main code
   var vis,
       maxSize = 512,
-      minSize = 16,
+      minSize = 1,
       dim = maxSize / minSize;
 
   koala.loadImage = function(imageData) {
